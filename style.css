@@ -1,0 +1,24 @@
+/* Desktop - 2 */
+
+position: relative;
+width: 1403px;
+height: 982px;
+
+background: #FFFFFF;
+
+
+/* Desktop - 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: relative;
+width: 1403px;
+height: 85px;
+
+background: linear-gradient(90.05deg, #00FF19 1.65%, #00FFFF 55.76%);
+border-radius: 30px;
