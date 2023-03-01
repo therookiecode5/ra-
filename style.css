@@ -88,3 +88,8 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
  }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
