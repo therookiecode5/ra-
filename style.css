@@ -57,8 +57,18 @@ border-style: solid;
   cursor: pointer;
   border-radius: 50px;
   font-family: verdana;
-  color: #ffffff;
   font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white; /* Green */
+  color: black;
 }
 
 .container {
