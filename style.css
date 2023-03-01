@@ -64,7 +64,7 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
 }
 
 .button:hover {
-  background-color: white; /* Green */
+  background-image: white; /* Green */
   color: black;
 }
 
@@ -77,10 +77,6 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
   width: 80vw;
   margin: 0 auto;
   min-height: 100vh;
-}
-
-.btn:hover {
-  background-position: right center; /* change the direction of the change here */
 }
 
 .btn {
