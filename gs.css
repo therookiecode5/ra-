@@ -18,7 +18,7 @@ h1 {
 img {
   border-style: solid;
   border-width: 10px;
-  border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+  border-image: conic-gradient(lime, aqua) 1;
 }
 
 a {
