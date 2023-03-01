@@ -19,7 +19,7 @@ img {
   border-style: solid;
   border-width: 5px;
   border-radius: 25px;
-  border-image: conic-gradient(lime, aqua, blue, magenta, lime) 1;
+  border-image: conic-gradient(lime, aqua, blue, magenta, yellow, lime) 1;
 }
 
 a {
