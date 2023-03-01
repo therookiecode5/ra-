@@ -34,12 +34,12 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);;
   color: white;
 }
 
@@ -55,4 +55,6 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  font-family: verdana;
+  color: #ffffff
 }
