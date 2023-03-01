@@ -44,10 +44,7 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
 }
 
 .button {
-border-style: solid;
-  border-width: 5px;
-  border-radius: 50px;
-  border-image: conic-gradient(red, orange, yellow, lime, aqua, blue, magenta, red) 1;
+  border-image: conic-gradient(lime, aqua, lime, aqua, lime) 1;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
