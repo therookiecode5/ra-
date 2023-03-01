@@ -14,5 +14,6 @@ h1 {
 }
 
 a {
-  outline: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%); solid 10px;
+  outline-color: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
+  outline-style: solid 10px;
 }
