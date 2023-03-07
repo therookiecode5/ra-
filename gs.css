@@ -34,7 +34,7 @@ img {
 }
 
 img:hover {
-  size: 500px;
+  border-radius: 0px;
 }
 
 
