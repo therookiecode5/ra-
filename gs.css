@@ -34,8 +34,9 @@ img {
 }
 
 img:hover {
-  size: 110px;
+  border-width: 5px;
 }
+
 
 .gradient-box {
   
