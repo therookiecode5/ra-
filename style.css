@@ -4,13 +4,14 @@ body {
 
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 40px;
   color: #ffffff
 }
 
 h1 {
-  font-family: verdana;
-  color: #ffffff
+  font-family: monospace;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 /* Add a black background color to the top navigation */
@@ -23,24 +24,34 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: verdana;
+  font-family: monospace;
   font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: white;
+  background-image: linear-gradient(90deg, rgb(0, 234, 255) 0%, rgb(41, 9, 250) 100%);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.topnav a {
+  transition-duration: 0.8s;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
   color: white;
+}
+
+@font-face {
+  font-family: "Monocode";
+    src: url("Monocode-Regular-V01.02b.ttf") format("truetype");
 }
 
 .button {
@@ -53,10 +64,10 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
    margin: 4px 2px;
    cursor: pointer;
    border-radius: 50px;
-   font-family: verdana;
+   font-family: monospace;
    font-size: 20px;
    background-color: black;
-   color: white;
+   color: black;
  }
 
  .button {
@@ -71,8 +82,10 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
   border: 2px solid #4CAF50;
 }
 
-.button1:hover {
-  color: black;
+.button:hover {
+  color: white;
+  background-image: linear-gradient(90deg, rgb(0, 234, 255) 0%, rgb(34, 0, 255) 100%);
+font-size: 28px;
 }
 
 .container {
@@ -85,6 +98,11 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
   margin: 0 auto;
   min-height: 100vh;
 }
+
+img {
+  transition-duration: 0.8s;
+}
+
 
 .btn {
   flex: 1 1 auto;
