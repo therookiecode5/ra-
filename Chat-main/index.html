@@ -10,19 +10,22 @@
     body {
       box-sizing: border-box;
       margin: 0;
+      background: black;
       padding: 13px;
       display: flex;
       flex-direction: column;
       max-height: 100vh;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: monospace;
+      color: white
     }
 
     .members-count,
     .members-list,
     .messages {
-      border: 1px solid #e4e4e4;
+      border: 1px solid grey;
       padding: 15px;
       margin-bottom: 15px;
+      color: white
     }
 
     .messages {
@@ -48,13 +51,28 @@
     }
     .message-form__input {
       flex-grow: 1;
-      border: 1px solid #dfdfdf;
+      border: 1px solid black;
       padding: 10px 15px;
       font-size: 16px;
+      font-family: monospace;
     }
     .message-form__button {
-      margin: 10px;
-    }
+   margin: 10px;
+   background-image: linear-gradient(90deg, rgba(0,255,18,1) 0%, rgba(9,250,250,1) 100%);
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 50px;
+   font-family: monospace;
+   font-size: 20px;
+   background-color: black;
+   color: black;
+ }
+    
   </style>
 </head>
 <body>
