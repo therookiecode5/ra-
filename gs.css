@@ -16,10 +16,12 @@ h1 {
 }
 
 img {
-  border-style: solid;
-  border-width: 0px;
+  border: double 2px transparent;
   border-radius: 25px;
-  border-image: conic-gradient(lime, aqua, blue, magenta, yellow, lime) 1;
+  background-image: linear-gradient(black, black), 
+                    linear-gradient(to right, aqua, lime);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 a {
