@@ -47,8 +47,8 @@ background: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: linear-gradient(90deg, rgba(0,255,48,1) 0%, rgba(0,242,255,1) 100%);
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   border-radius: 50px;
 }
 
