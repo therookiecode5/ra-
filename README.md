@@ -1,5 +1,7 @@
 <h1>Pure Pro</h1>
 
+[![flask-proxy](https://github-readme-stats.vercel.app/api/pin/?username=PurePro4561&repo=purepro4561.github.io&theme=dark)](https://github.com/purepro4561/purepro4561.github.io)<br/>
+
 <a href="https://github.com/PurePro4561/PurePro4561.github.io/LICENSE"><img src="https://img.shields.io/github/license/PurePro4561/PurePro4561.github.io.svg?style=flat" alt="License"></a>
 
 <p align="left"> 
